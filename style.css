@@ -1,0 +1,75 @@
+* {
+    font-family: 'Newsreader', serif;
+}
+
+/* ******************************homepg************************************************ */
+.heropg {
+    background-image: url("image/girl1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.herocontent1 {
+    height: 650px;
+}
+
+.herocontent2 {
+    height: 600px;
+    font-size: smaller;
+}
+
+.herop {
+    margin-top: -10px;
+    background-color: rgb(226, 217, 217);
+}
+
+/* *********************************homepg********************************************* */
+
+
+/* *********************************hero_column********************************************* */
+.herocol {
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A569D, #DC2424);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+}
+
+/* **********************************hero_column******************************************** */
+
+
+/* **********************************card******************************************** */
+.cardpart {
+    background-color: rgb(223, 197, 197);
+    margin-top: 60px;
+}
+
+.cardpart .card:hover {
+    border: 2px #fff groove;
+    box-shadow: 5px 10px 8px #888888;
+    /* box-shadow: 0 0 20px 10px #868484; */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* **********************************card******************************************** */
+
+
+/* **********************************footer******************************************** */
+.footer {
+    background-color: #ffe7e7;
+    color: #2d2d2d;
+    margin-top: 60px;
+}
+
+.footer h3 {
+    font-weight: bold;
+}
+
+/* **********************************footer******************************************** */
